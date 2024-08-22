@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+    color: blueviolet;
+    padding: 10px;
+    font-family: "Roboco", sans-serif;
+    font-size: 20px;
+    display: block;
+}
+
+header {
+    background-color: bisque;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    color: red;
+    font-size: 20px;
+}
+
+input {
+    border-radius: 4px;
+    width: 300px;
+    height: 20px;
+}
