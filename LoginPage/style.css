@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboco", sans-serif;
+    background: rgb(217, 245, 255);
+}
+
+
+@media(min-width: 1024px) {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    form {
+        border-radius: 5px;
+        padding: 5px 20px;
+        padding-bottom: 30px;
+        background-color: #fff;
+        border: 2px solid grey;
+        text-align: center;
+        margin: 10% auto;
+        font-size: clamp(30px,2.75vw,45px);
+    }
+    input {
+        display: block;
+        margin: 10px auto;
+        width: 90%;
+        height: 40px;
+        font-size: clamp(15px,1.5vw,100px);
+        border-radius: 5px;
+        border-color: #b9b9b9;
+    }
+    
+    #submit {
+        background: #d6d6d6;
+        margin-top: 30px;
+        border-color: #000;
+        cursor: pointer;
+    }
+    
+    form a {
+        font-size: clamp(20px,1vw,90px);
+        color: rgb(0, 83, 179);
+        text-decoration: none;
+    }
+    
+    form a:hover {
+        color: rgb(128, 0, 128);
+        text-decoration: underline;
+    }
+}
+
+@media(max-width: 1023px) {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    form {
+        border-radius: 10px;
+        padding: 5px 20px;
+        padding-bottom: 30px;
+        background-color: #fff;
+        border: 2px solid grey;
+        text-align: center;
+        margin: 50px auto;
+        font-size: clamp(30px,3vw,50px);
+    }
+    input {
+        display: block;
+        margin: 10px auto;
+        width: 90%;
+        height: 40px;
+        font-size: clamp(15px,1.5vw,100px);
+        border-radius: 5px;
+        border-color: #b9b9b9;
+    }
+    
+    #submit {
+        background: #d6d6d6;
+        margin-top: 30px;
+        border-color: #000;
+        cursor: pointer;
+    }
+    
+    form a {
+        font-size: clamp(18px,1vw,90px);
+        color: rgb(0, 83, 179);
+        text-decoration: none;
+    }
+    
+    form a:hover {
+        color: rgb(128, 0, 128);
+        text-decoration: underline;
+    }
+}
