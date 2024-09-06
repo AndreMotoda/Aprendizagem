@@ -1,0 +1,7 @@
+com\example\todolistapplication\ToDoListApplication\controller\RequiredArgsConstructor.class
+com\example\todolistapplication\ToDoListApplication\model\Task.class
+com\example\todolistapplication\ToDoListApplication\controller\TaskController.class
+com\example\todolistapplication\ToDoListApplication\ToDoListApplication.class
+com\example\todolistapplication\ToDoListApplication\service\TaskService.class
+com\example\todolistapplication\ToDoListApplication\model\Status.class
+com\example\todolistapplication\ToDoListApplication\repository\TaskRepository.class
